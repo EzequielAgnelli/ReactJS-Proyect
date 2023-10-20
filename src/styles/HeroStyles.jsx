@@ -26,11 +26,11 @@ export const HeroParagraph = styled.p`
     font-size: 20px;
     padding: 20px;
     font-weight: 600;
-    margin: 0px 0px 0px 70px;`
+    margin: 0px 0px 0px 70px; `
 
 export const BtnDiv = styled.div`
     padding: 20px;
-    margin: 0px 0px 0px 70px;`
+    margin: 0px 0px 0px 70px; `
 
 export const HeroBtn = styled.a`
     background-color: black;
