@@ -1,5 +1,5 @@
 import './styles/App.css'
-import NavBar from './components/Navbar'
+import NavBar from './components/NavBar'
 import { HeroSection } from './components/HeroSection'
 import {SecondHeroSection} from './components/HeroSection2'
 import { MostFeatured } from './components/MostFeaturedSection'
