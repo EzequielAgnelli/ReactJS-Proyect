@@ -14,8 +14,9 @@ export const FeaturedContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
-    max-width: 1200px; `
+    gap: 10px;
+    max-width: 1200px;
+    `
 
 export const ProductsDiv = styled.div`
     display: flex;
@@ -23,7 +24,8 @@ export const ProductsDiv = styled.div`
     align-items: right;
     flex-direction: column;
     flex-wrap: wrap;
-    outline: 1px solid gray; `
+    outline: 1px solid gray;
+    gap: 10px; `
 
 export const ProductsExclusiveDiv = styled.div`
     margin-top: 7px;
@@ -52,7 +54,7 @@ export const TitleSection = styled.h2`
     padding: 0px 0px 20px 0px;`
 
 export const ProductImg = styled.img`
-    width: 300px;
+    width: 340px;
     height: 420px; `
 
 export const ProductName = styled.h3`
@@ -62,4 +64,5 @@ export const ProductName = styled.h3`
 export const ProductPieces = styled.p`
     font-weight: 800;
     font-size: 18px;
+    text-align: center;
     margin-bottom: 10px; `

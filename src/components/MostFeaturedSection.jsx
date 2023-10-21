@@ -1,11 +1,14 @@
 import React from "react";
 import AhsokaImg from '../assets/MostFeaturedProducts-Imgs/Ahsoka.jpg'
-// import VenatorImg from '../assets/MostFeaturedProducts-Imgs/Venator.jpg'
+import SecondProduct from './MostFeatured-Components/SecondProduct'
+import ThirdProduct from './MostFeatured-Components/ThirdProduct'
+// import SecondProductImg from '../assets/MostFeaturedProducts-Imgs/AT-AT.jpg'
 import {FeaturedDiv, FeaturedContainer, ProductsDiv, ProductsInfoDiv, TitleSection, ProductImg, ProductName, ProductPieces, ProductsExclusiveDiv, ExclusiveTag} from '../styles/MostFeaturedStyles'
+
 
 export function MostFeatured() {
     return (
-        <FeaturedDiv>
+        <FeaturedDiv id="mostfeatured">
             <TitleSection>
                 Most Featured Products
             </TitleSection>
@@ -33,8 +36,10 @@ export function MostFeatured() {
                         </ProductPieces>
 
                     </ProductsInfoDiv>
-                </ProductsDiv>
 
+                </ProductsDiv>
+                    <SecondProduct />
+                    <ThirdProduct />
             </FeaturedContainer>
         </FeaturedDiv>
     )

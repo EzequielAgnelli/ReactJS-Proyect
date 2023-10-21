@@ -16,7 +16,7 @@ export default function NavBar() {
 
         <NavbarUl>
             <NavbarList>
-                <NavbarLinks a href="#"> Purchase Now </NavbarLinks>
+                <NavbarLinks a href="#mostfeatured"> Purchase Now </NavbarLinks>
             </NavbarList>
 
             <NavbarList>

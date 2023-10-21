@@ -3,9 +3,11 @@ import styled from 'styled-components';
 
 export const Header = styled.header`
     background-color: #FFD700; 
+    width: 100%;
         & img {
         width: 75px;
         height: 75px;
+        transition: top 0.3s;
     } `
 
 export const Navbar = styled.nav`
