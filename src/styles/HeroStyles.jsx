@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
     width: 100%;
-    padding: 0px 20px 30px 20px;
+    padding: 0px 20px 35px 20px;
     display: flex;
     justify-content: center;
     align-items: center; `

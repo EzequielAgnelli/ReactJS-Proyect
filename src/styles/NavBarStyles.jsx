@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 export const Header = styled.header`
-    background-color: #ffdb4b; 
+    background-color: #FFD700; 
         & img {
         width: 75px;
         height: 75px;

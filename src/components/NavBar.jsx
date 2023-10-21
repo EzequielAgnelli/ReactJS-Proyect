@@ -16,15 +16,15 @@ export default function NavBar() {
 
         <NavbarUl>
             <NavbarList>
-                <NavbarLinks> Purchase Now </NavbarLinks>
+                <NavbarLinks a href="#"> Purchase Now </NavbarLinks>
             </NavbarList>
 
             <NavbarList>
-                <NavbarLinks> Discover </NavbarLinks>
+                <NavbarLinks a href="#"> Discover </NavbarLinks>
             </NavbarList>
 
             <NavbarList>
-                <NavbarLinks> Help </NavbarLinks>
+                <NavbarLinks a href="#"> Help </NavbarLinks>
             </NavbarList>
         </NavbarUl>
 
