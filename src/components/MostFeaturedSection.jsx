@@ -1,4 +1,3 @@
-import React from "react";
 import AhsokaImg from '../assets/MostFeaturedProducts-Imgs/Ahsoka.jpg'
 import SecondProduct from './MostFeatured-Components/SecondProduct'
 import ThirdProduct from './MostFeatured-Components/ThirdProduct'
