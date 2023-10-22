@@ -1,0 +1,31 @@
+import React from 'react'
+import SecondProductImg from '../../assets/MostFeaturedProducts-Imgs/City-Garden-NINJAGO.png';
+import { ProductsDiv, ProductImg, ProductsInfoDiv, ProductName, ProductPieces, ProductsExclusiveDiv, ExclusiveTag } from '../../styles/MostFeaturedStyles';
+
+const SecondProduct = () => {
+    return (
+        <ProductsDiv>
+                    <ProductsExclusiveDiv>
+                        <ExclusiveTag>
+                            Exclusive
+                        </ExclusiveTag>
+                    </ProductsExclusiveDiv>
+            <ProductImg  
+                src={SecondProductImg}
+                alt="City Garden (NINJAGO)">
+            </ProductImg>
+
+            <ProductsInfoDiv>
+                <ProductName>
+                    Garden NINJAGO
+                </ProductName>
+
+                <ProductPieces>
+                    5686 Pieces
+                </ProductPieces>
+            </ProductsInfoDiv>
+        </ProductsDiv>
+    );
+}
+
+export default SecondProduct;

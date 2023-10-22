@@ -2,7 +2,9 @@ import React from "react";
 import AhsokaImg from '../assets/MostFeaturedProducts-Imgs/Ahsoka.jpg'
 import SecondProduct from './MostFeatured-Components/SecondProduct'
 import ThirdProduct from './MostFeatured-Components/ThirdProduct'
-// import SecondProductImg from '../assets/MostFeaturedProducts-Imgs/AT-AT.jpg'
+import FourthProduct  from './MostFeatured-Components/FourthProduct'
+import SixthProduct from './MostFeatured-Components/SixthProduct'
+import FifthProduct from  './MostFeatured-Components/FifthProduct'
 import {FeaturedDiv, FeaturedContainer, ProductsDiv, ProductsInfoDiv, TitleSection, ProductImg, ProductName, ProductPieces, ProductsExclusiveDiv, ExclusiveTag} from '../styles/MostFeaturedStyles'
 
 
@@ -40,6 +42,9 @@ export function MostFeatured() {
                 </ProductsDiv>
                     <SecondProduct />
                     <ThirdProduct />
+                    <FourthProduct />
+                    <SixthProduct />
+                    <FifthProduct />
             </FeaturedContainer>
         </FeaturedDiv>
     )

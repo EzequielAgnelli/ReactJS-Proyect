@@ -15,8 +15,7 @@ export const FeaturedContainer = styled.div`
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    max-width: 1200px;
-    `
+    max-width: 1200px; `
 
 export const ProductsDiv = styled.div`
     display: flex;
@@ -40,6 +39,7 @@ export const ProductsInfoDiv = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 10px; `
 
 export const ExclusiveTag = styled.span`
@@ -55,10 +55,10 @@ export const TitleSection = styled.h2`
 
 export const ProductImg = styled.img`
     width: 340px;
-    height: 420px; `
+    height: 460px;
+    padding: 20px;`
 
 export const ProductName = styled.h3`
-    font-weight: 800;
     font-size: 22px; `
 
 export const ProductPieces = styled.p`
@@ -66,3 +66,4 @@ export const ProductPieces = styled.p`
     font-size: 18px;
     text-align: center;
     margin-bottom: 10px; `
+
