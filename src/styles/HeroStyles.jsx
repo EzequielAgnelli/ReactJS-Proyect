@@ -1,4 +1,3 @@
-import React from 'react'
 import DesktopImage from '../assets/Hero-Section-Imgs/01-Hero-Standard-LEGO.jpg'
 import styled from 'styled-components';
 

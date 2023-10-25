@@ -1,4 +1,3 @@
-import React from 'React'
 import styled, { keyframes } from 'styled-components';
 
 export const FeaturedDiv = styled.div`
@@ -97,7 +96,6 @@ export const ProductBtn = styled.button`
     background-color: #FD8024;
     
     &:hover {
-        background-color: #fff;
-        border: 1px solid #FD8024;
-        color: black;
+        background-color: #201D48;;
+        color: #fff;
     }`

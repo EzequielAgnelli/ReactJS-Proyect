@@ -5,6 +5,7 @@ import {SecondHeroSection} from './components/HeroSection2'
 import { MostFeatured } from './components/MostFeaturedSection'
 import { GlobalStyles } from  './styles/GeneralStyles'
 import { Footer } from './components/Footer'
+import { VideoGamesSection } from './components/VideoGamesSection'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <SecondHeroSection />
             <MostFeatured />
             <Footer />
+            <VideoGamesSection />
         </div>
     );
 }
