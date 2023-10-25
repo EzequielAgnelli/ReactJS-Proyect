@@ -1,6 +1,6 @@
 import React from 'react'
 import SecondProductImg from '../../assets/MostFeaturedProducts-Imgs/AT-AT.jpg';
-import { ProductsDiv, ProductImg, ProductsInfoDiv, ProductName, ProductPieces, ProductsExclusiveDiv, ExclusiveTag } from '../../styles/MostFeaturedStyles';
+import { ProductsDiv, ProductImg, ProductsInfoDiv, ProductName, ProductPieces, ProductsExclusiveDiv, ExclusiveTag, ProductBtn } from '../../styles/MostFeaturedStyles';
 
 const SecondProduct = () => {
     return (
@@ -23,6 +23,10 @@ const SecondProduct = () => {
                 <ProductPieces>
                     6785 Pieces
                 </ProductPieces>
+
+                <ProductBtn>
+                    Add to Cart
+                </ProductBtn>
             </ProductsInfoDiv>
         </ProductsDiv>
     );

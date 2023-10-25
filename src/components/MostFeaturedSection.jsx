@@ -5,7 +5,7 @@ import ThirdProduct from './MostFeatured-Components/ThirdProduct'
 import FourthProduct  from './MostFeatured-Components/FourthProduct'
 import SixthProduct from './MostFeatured-Components/SixthProduct'
 import FifthProduct from  './MostFeatured-Components/FifthProduct'
-import {FeaturedDiv, FeaturedContainer, ProductsDiv, ProductsInfoDiv, TitleSection, ProductImg, ProductName, ProductPieces, ProductsExclusiveDiv, ExclusiveTag} from '../styles/MostFeaturedStyles'
+import {FeaturedDiv, FeaturedContainer, ProductsDiv, ProductsInfoDiv, TitleSection, ProductImg, ProductName, ProductPieces, ProductsExclusiveDiv, ExclusiveTag, ProductBtn} from '../styles/MostFeaturedStyles'
 
 
 export function MostFeatured() {
@@ -36,6 +36,10 @@ export function MostFeatured() {
                         <ProductPieces>
                             164 Pieces
                         </ProductPieces>
+
+                        <ProductBtn>
+                            Add to Cart
+                        </ProductBtn>
 
                     </ProductsInfoDiv>
 

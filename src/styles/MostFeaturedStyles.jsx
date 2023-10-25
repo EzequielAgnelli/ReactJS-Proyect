@@ -1,5 +1,5 @@
 import React from 'React'
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const FeaturedDiv = styled.div`
     display: flex;
@@ -53,10 +53,27 @@ export const TitleSection = styled.h2`
     font-size: 24px; 
     padding: 0px 0px 20px 0px;`
 
+const fadeIn = keyframes`
+from {
+    padding: 20px;
+}
+to {
+    padding: 4px;
+}
+`;
+
 export const ProductImg = styled.img`
     width: 340px;
     height: 460px;
-    padding: 20px;`
+    padding: 20px;
+    transition: padding 0.3s ease-in;
+    
+    &:hover {
+        cursor: pointer;
+        animation: ${fadeIn} 0.3s ease-in;
+        padding: 4px;
+        transition: all;
+    }`
 
 export const ProductName = styled.h3`
     font-size: 22px; `
@@ -67,3 +84,20 @@ export const ProductPieces = styled.p`
     text-align: center;
     margin-bottom: 10px; `
 
+export const ProductBtn = styled.button`
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #FD8024;
+    
+    &:hover {
+        background-color: #fff;
+        border: 1px solid #FD8024;
+        color: black;
+    }`
