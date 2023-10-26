@@ -2,19 +2,24 @@ import styled from 'styled-components';
 
 export const Foooter = styled.footer`
     background-color: #201D48;
-    border-radius: 5px;
     width: 100%;
-    padding: 20px; `
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;`
 
 export const FooterA = styled.a`
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
-    font-weight: bold; `
+    margin-top: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 800;`
 
 export const FooterHr = styled.hr`
-    margin-top: 1.75rem;
-    margin-bottom: 1.75rem;
+    width: 100%;
     border: 1px solid #634e85; `
 
 export const FooterP = styled.p`

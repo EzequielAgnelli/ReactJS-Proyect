@@ -3,14 +3,14 @@ import styled from 'styled-components';
 export const Header = styled.header`
     background-color: #FFD700; 
     width: 100%;
+    padding: 5px;
         & img {
+        display: flex;
         width: 75px;
         height: 75px;
-        transition: top 0.3s;
     } `
 
 export const Navbar = styled.nav`
-    padding: 4px;
     display: flex;
     justify-content:space-between;
     align-items: center; `
@@ -25,8 +25,7 @@ export const NavbarList = styled.li`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
-    gap: 10px; `
+    padding: 10px; `
 
 export const NavbarLinks = styled.a`
     text-decoration: none;
@@ -36,9 +35,10 @@ export const NavbarLinks = styled.a`
 
 export const NavbarDiv = styled.div`
     display: flex;
-    margin-left: 10px; `
+    align-items: center;
+    margin-left: 10px;`
 
 export const NavbarTitle = styled.h1`
     padding: 10px;
-    margin-top: 15px;
+    font-size: 25px;
     font-weight: 800; `
