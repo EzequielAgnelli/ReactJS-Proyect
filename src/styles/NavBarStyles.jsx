@@ -4,16 +4,26 @@ export const Header = styled.header`
     background-color: #FFD700; 
     width: 100%;
     padding: 5px;
-        & img {
+    & img {
         display: flex;
         width: 75px;
         height: 75px;
-    } `
+    }
+
+    @media (max-width: 768px) {
+        padding: 10px;
+        width: 100%;
+        flex-direction: column;
+    } `;
 
 export const Navbar = styled.nav`
     display: flex;
-    justify-content:space-between;
-    align-items: center; `
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 768px) {
+        flex-direction: column; 
+    } `;
 
 export const NavbarUl = styled.ul`
     display: flex;
@@ -36,7 +46,13 @@ export const NavbarLinks = styled.a`
 export const NavbarDiv = styled.div`
     display: flex;
     align-items: center;
-    margin-left: 10px;`
+    margin-left: 10px;
+    
+    @media (max-width: 768px) {
+        flex-direction: column; 
+    } `
+
+
 
 export const NavbarTitle = styled.h1`
     padding: 10px;

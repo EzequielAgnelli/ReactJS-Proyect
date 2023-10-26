@@ -3,7 +3,7 @@ import {Foooter, FooterA, FooterHr, FooterP, FooterUl, FooterLi} from '../styles
 
 export function Footer() {
     return (
-        <Foooter>
+        <Foooter id="footer">
             <FooterA>
                 Lego E-commerce
             </FooterA>
@@ -24,10 +24,11 @@ export function Footer() {
                         Terms & Conditions
                     </FooterLi>
                 </FooterUl>
+
             <FooterHr></FooterHr> 
 
             <FooterP>
-                Made With love By Ezequiel 🌎
+                Made with love by Ezequiel 🌎
             </FooterP>
         </Foooter>
     )

@@ -31,7 +31,6 @@ export const FooterP = styled.p`
 export const FooterUl = styled.ul`
     display: flex;
     align-items: center;
-    justify-content: right;
     flex-wrap: wrap;
     font-weight: bold;
     gap: 10px; `
@@ -39,7 +38,6 @@ export const FooterUl = styled.ul`
 export const FooterLi = styled.li`
     color: white;
     cursor: pointer;
-    list-style-type: none; 
 
     &:hover {
         text-decoration: underline;

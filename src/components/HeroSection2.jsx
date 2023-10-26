@@ -3,7 +3,7 @@ import {HeroContainer, HeroDiv, SecondTitle, VideoGameDiv, VideoGameDetailsDiv, 
 
 export function SecondHeroSection() {
     return (
-    <HeroContainer>
+    <HeroContainer id="videogame">
         <SecondTitle>
         ¡Remember that we also sell videogames!
         </SecondTitle>
