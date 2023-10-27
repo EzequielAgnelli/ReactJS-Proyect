@@ -53,7 +53,6 @@ export const NavbarDiv = styled.div`
     } `
 
 
-
 export const NavbarTitle = styled.h1`
     padding: 10px;
     font-size: 25px;

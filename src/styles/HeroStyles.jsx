@@ -6,7 +6,12 @@ export const HeroContainer = styled.div`
     padding: 0px 20px 35px 20px;
     display: flex;
     justify-content: center;
-    align-items: center; `
+    align-items: center; 
+    
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 0px;
+    }; `
 
 export const HeroDiv = styled.div`
     background-image: url(${DesktopImage});
@@ -14,7 +19,13 @@ export const HeroDiv = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     width: 1600px;
-    height: 500px; `
+    height: 500px; 
+    
+    @media (max-width: 768px) {
+    width: 100%;
+    text-align: left;
+    align-items: left;
+    }; `
 
 export const HeroTitle = styled.h2`
     font-size: 30px;
@@ -25,7 +36,12 @@ export const HeroParagraph = styled.p`
     font-size: 20px;
     padding: 20px;
     font-weight: 600;
-    margin: 0px 0px 0px 70px; `
+    margin: 0px 0px 0px 70px; 
+    
+    @media (max-width: 768px) {
+        font-size: 19px;
+        margin-left: 0px;
+    }; `
 
 export const BtnDiv = styled.div`
     padding: 20px;
@@ -38,7 +54,6 @@ export const HeroBtn = styled.a`
     font-size: 17px;
     font-weight: 800;
     cursor: pointer; 
-    /* Remover despues el cursor pointer una vez lo arregle */
     border-radius: 7px; 
     position: relative;
 

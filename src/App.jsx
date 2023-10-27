@@ -5,8 +5,6 @@ import {SecondHeroSection} from './components/HeroSection2'
 import { MostFeatured } from './components/MostFeaturedSection'
 import { GlobalStyles } from  './styles/GeneralStyles'
 import { Footer } from './components/Footer'
-import { VideoGamesSection } from './components/VideogamesSection'
-
 
 function App() {
     return (
@@ -16,7 +14,6 @@ function App() {
             <HeroSection />
             <SecondHeroSection />
             <MostFeatured />
-            <VideoGamesSection />
             <Footer />
 
         </div>

@@ -7,7 +7,11 @@ export const HeroContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; `
+    align-items: center; 
+    
+    @media (max-width: 768px) {
+        width: 100%;
+    } ;`
 
 export const SecondTitle = styled.h2`
     text-align: center;
@@ -22,7 +26,12 @@ export const HeroDiv = styled.div`
     background-repeat: no-repeat;
     width: 1600px;
     height: 500px;
-    position: relative; `
+    position: relative; 
+    
+    @media (max-width: 768px) {
+        width: 100%;
+        
+    } ;`
 
 export const VideoGameDiv = styled.div`
     background-color: rgba(31,32,36,.97);
@@ -31,7 +40,13 @@ export const VideoGameDiv = styled.div`
     position: absolute;
     left: 9%;
     top: 15%;
-    transform: translateX(-20%); `
+    transform: translateX(-20%); 
+    
+    @media (max-width: 768px) {
+        top: 100%;
+        width: 420px;
+        height: 350px;
+    } ;`
 
 export const VideoGameDetailsDiv = styled.div`
     display: flex;
