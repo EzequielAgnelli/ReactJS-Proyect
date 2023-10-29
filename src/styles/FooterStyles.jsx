@@ -26,7 +26,11 @@ export const FooterA = styled.a`
         width: 100%;
         text-align: center;
         align-items: center;
-    }; `
+    }; 
+    
+    @media (max-width: 992px) {
+        font-size: 23px;
+    };`
 
 export const FooterHr = styled.hr`
     width: 100%;
@@ -36,7 +40,11 @@ export const FooterP = styled.p`
     font-size: 17px;
     color: #fff;
     text-align: center;
-    font-weight: bold;`
+    font-weight: bold;
+    
+    @media (max-width: 992px) {
+        font-size: 20px;
+    };`
 
 export const FooterUl = styled.ul`
     display: flex;
@@ -63,4 +71,8 @@ export const FooterLi = styled.li`
     @media (max-width: 768px) {
         padding: 0px;
         align-items: center;
-    }; `
+    }; 
+    
+    @media (max-width: 992px) {
+        font-size: 19px;
+    };`

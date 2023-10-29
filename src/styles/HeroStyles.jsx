@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
     width: 100%;
-    padding: 0px 20px 35px 20px;
+    padding: 0px 20px 5px 20px;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -11,7 +11,11 @@ export const HeroContainer = styled.div`
     @media (max-width: 768px) {
         width: 100%;
         padding: 0px;
-    }; `
+    }; 
+    
+    @media (max-width: 992px) {
+        padding: 0px;
+};  `
 
 export const HeroDiv = styled.div`
     background-image: url(${DesktopImage});

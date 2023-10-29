@@ -41,7 +41,11 @@ export const NavbarLinks = styled.a`
     text-decoration: none;
     color: black;
     font-size: 20px;
-    font-weight: 800; `
+    font-weight: 800; 
+
+    @media (max-width: 992px) {
+        font-size: 18px;
+    };`
 
 export const NavbarDiv = styled.div`
     display: flex;
@@ -51,7 +55,6 @@ export const NavbarDiv = styled.div`
     @media (max-width: 768px) {
         flex-direction: column; 
     } `
-
 
 export const NavbarTitle = styled.h1`
     padding: 10px;

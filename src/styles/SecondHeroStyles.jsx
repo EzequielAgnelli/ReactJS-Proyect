@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
     width: 100%;
-    padding: 0px 20px 15px 20px;
+    padding: 0px 20px 5px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,13 +11,28 @@ export const HeroContainer = styled.div`
     
     @media (max-width: 768px) {
         width: 100%;
-    } ;`
+        padding: 0px;
+    };
+    
+    @media (max-width: 992px) {
+        width: 100%;
+        padding: 0px;
+    }; `
 
 export const SecondTitle = styled.h2`
     text-align: center;
     margin-bottom: 20px;
     text-transform: uppercase;
-    font-weight: 800; `
+    font-weight: 800; 
+    
+    @media (max-width: 768px) {
+        font-size: 20px;
+        text-align: center;
+    }; 
+    
+    @media (max-width: 992px) {
+        text-align: center;
+};`
 
 export const HeroDiv = styled.div`
     background-image: url(${secondDesktop});
@@ -30,8 +45,11 @@ export const HeroDiv = styled.div`
     
     @media (max-width: 768px) {
         width: 100%;
-        
-    } ;`
+    };
+
+    @media (max-width: 992px) {
+        width: 100%;
+}; `
 
 export const VideoGameDiv = styled.div`
     background-color: rgba(31,32,36,.97);
@@ -43,39 +61,71 @@ export const VideoGameDiv = styled.div`
     transform: translateX(-20%); 
     
     @media (max-width: 768px) {
-        top: 100%;
-        width: 420px;
+        top: 15%;
+        width: 400px;
         height: 350px;
-    } ;`
+        background-color: rgba(31, 32, 36, 0.801);
+    };
+    
+    @media (max-width: 992px) {
+        top: 15%;
+        left: 15%;
+        background-color: rgba(31, 32, 36, 0.801);
+    }; `
 
 export const VideoGameDetailsDiv = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    padding: 10px;`
+    padding: 10px;
+    
+    @media (max-width: 768px) {
+        text-align: center;
+} ;`
 
 export const VideoGameTitle = styled.h2`
     text-align: center;
-    margin: 20px; `
+    margin-left: 30px;
+    
+    @media (max-width: 768px) {
+        font-size: 18px;
+        text-align: center;
+} ;
+
+    @media (max-width: 992px) {
+        margin-left: 0px;
+    }; `
 
 export const VideoGameParagraph = styled.p`
     color: #fff;
     font-size: 15px;
     font-weight: 800;
-    margin-left: 15px; `
+    margin-left: 15px; 
+    
+    @media (max-width: 992px) {
+        font-size: 16px;
+    }; `
 
 export const VideoGameSpan = styled.span`
     color: #fff;
     font-size: 13.5px;
     font-weight: 800;
-    margin: 20px; `
+    margin: 20px; 
+    
+    @media (max-width: 992px) {
+        font-size: 15.5px;
+    }; `
 
 export const VideoGamePurchaseDiv = styled.div`
     padding: 20px;
     display: flex;
     flex-direction: column;
-    color: #fff; `
+    color: #fff; 
+    
+    @media (max-width: 768px) {
+        text-align: center;
+    }; `
 
 export const VideoGamePrice = styled.h3`
     font-weight: 800;`
@@ -94,4 +144,9 @@ export const VideoGamePurchaseBtn = styled.button`
 
     &:hover {
         background-color: #b63401;
-    } `
+    } 
+    
+    @media (max-width: 768px) {
+        justify-content: center;
+        margin: 0 auto;
+}; `

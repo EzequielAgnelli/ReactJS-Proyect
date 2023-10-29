@@ -15,7 +15,6 @@ function App() {
             <SecondHeroSection />
             <MostFeatured />
             <Footer />
-
         </div>
     );
 }
