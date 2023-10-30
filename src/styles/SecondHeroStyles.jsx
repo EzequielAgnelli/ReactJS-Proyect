@@ -32,7 +32,7 @@ export const SecondTitle = styled.h2`
     
     @media (max-width: 992px) {
         text-align: center;
-};`
+    };`
 
 export const HeroDiv = styled.div`
     background-image: url(${secondDesktop});
@@ -42,14 +42,26 @@ export const HeroDiv = styled.div`
     width: 1600px;
     height: 500px;
     position: relative; 
-    
+
     @media (max-width: 768px) {
         width: 100%;
     };
 
     @media (max-width: 992px) {
         width: 100%;
-}; `
+    }; 
+
+@media (max-width: 1366px) {
+        width: 100%;
+    }; 
+    
+    @media (max-width: 1600px) {
+        width: 100%;
+    }; 
+    
+    @media (max-width: 360px) {
+        padding: 0px;
+    }; `
 
 export const VideoGameDiv = styled.div`
     background-color: rgba(31,32,36,.97);
@@ -59,10 +71,10 @@ export const VideoGameDiv = styled.div`
     left: 9%;
     top: 15%;
     transform: translateX(-20%); 
-    
+
     @media (max-width: 768px) {
         top: 15%;
-        width: 400px;
+        width: 380px;
         height: 350px;
         background-color: rgba(31, 32, 36, 0.801);
     };
@@ -71,7 +83,15 @@ export const VideoGameDiv = styled.div`
         top: 15%;
         left: 15%;
         background-color: rgba(31, 32, 36, 0.801);
-    }; `
+    }; 
+    
+    @media (max-width: 1024px) {
+        left: 15%;
+    }; 
+
+    @media (max-width: 360px) {
+        width: 200px;
+    }; ` 
 
 export const VideoGameDetailsDiv = styled.div`
     display: flex;
@@ -82,7 +102,7 @@ export const VideoGameDetailsDiv = styled.div`
     
     @media (max-width: 768px) {
         text-align: center;
-} ;`
+    };`
 
 export const VideoGameTitle = styled.h2`
     text-align: center;
@@ -91,7 +111,7 @@ export const VideoGameTitle = styled.h2`
     @media (max-width: 768px) {
         font-size: 18px;
         text-align: center;
-} ;
+    };
 
     @media (max-width: 992px) {
         margin-left: 0px;
@@ -149,4 +169,4 @@ export const VideoGamePurchaseBtn = styled.button`
     @media (max-width: 768px) {
         justify-content: center;
         margin: 0 auto;
-}; `
+    }; `

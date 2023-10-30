@@ -72,7 +72,11 @@ export const ProductImg = styled.img`
         animation: ${fadeIn} 0.3s ease-in;
         padding: 4px;
         transition: all;
-    }`
+    }
+    
+    @media (max-width: 360px) {
+        width: 250px;
+    }; `
 
 export const ProductName = styled.h3`
     font-size: 22px; `
