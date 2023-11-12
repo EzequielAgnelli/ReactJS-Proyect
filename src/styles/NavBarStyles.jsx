@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Header = styled.header`
     background-color: #FFD700; 
@@ -60,3 +61,13 @@ export const NavbarTitle = styled.h1`
     padding: 10px;
     font-size: 25px;
     font-weight: 800; `
+
+export const StyledLink = styled(Link)`
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 800; 
+
+    @media (max-width: 992px) {
+        font-size: 18px;
+    };`

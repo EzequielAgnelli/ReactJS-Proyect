@@ -8,7 +8,7 @@ export const Foooter = styled.footer`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
     @media (max-width: 768px) {
         width: 100%;
     }; `

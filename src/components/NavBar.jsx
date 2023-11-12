@@ -1,40 +1,34 @@
 import React from 'react';
-import logo from '../assets/Navbar-Image/Lego-Logo.png'
+import logo from '../assets/Navbar-Image/Lego-Logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import { Navbar, NavbarList, NavbarLinks, NavbarDiv, NavbarTitle, NavbarUl, Header } from '../styles/NavBarStyles'
-
+import { Navbar, NavbarList, NavbarLinks, NavbarDiv, NavbarTitle, NavbarUl, Header, StyledLink } from '../styles/NavBarStyles';
 
 export default function NavBar() {
-    return (
+return (
     <Header>
-            <Navbar>
-
+    <Navbar>
         <NavbarDiv>
-            <img src={logo}alt="Lego Logo" />
-                <NavbarTitle>
-                    Lego Shop
-                </NavbarTitle>
+        <img src={logo} alt="Lego Logo" />
+        <NavbarTitle>Lego Shop</NavbarTitle>
         </NavbarDiv>
-                
+
         <NavbarUl>
-            <NavbarList>
-                <NavbarLinks a href="#videogame"> Purchase Now </NavbarLinks>
-            </NavbarList>
+        <NavbarList>
+            <NavbarLinks href="#videogame"> Purchase Now </NavbarLinks>
+        </NavbarList>
 
-            <NavbarList>
-                <NavbarLinks a href="#mostfeatured"> Discover </NavbarLinks>
-            </NavbarList>
+        <NavbarList>
+            <NavbarLinks href="#mostfeatured"> Discover </NavbarLinks>
+        </NavbarList>
 
-            <NavbarList>
-                <NavbarLinks a href="#footer"> Help </NavbarLinks>
-            </NavbarList>
+        <NavbarList>
+        <StyledLink to="/contact">Contact</StyledLink>
+        </NavbarList>
 
-        <FontAwesomeIcon icon={faShoppingCart} size="lg"/>
-
+        <FontAwesomeIcon icon={faShoppingCart} size="lg" />
         </NavbarUl>
-
-        </Navbar>
+    </Navbar>
     </Header>
-    );
+);
 }
