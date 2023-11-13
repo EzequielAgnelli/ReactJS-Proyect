@@ -71,3 +71,8 @@ export const StyledLink = styled(Link)`
     @media (max-width: 992px) {
         font-size: 18px;
     };`
+
+export const SecondStyledLink = styled(Link)`
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 800;`

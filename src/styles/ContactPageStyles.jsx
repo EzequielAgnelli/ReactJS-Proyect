@@ -74,6 +74,13 @@ export const SubmitButton = styled.button`
     width: 50%;
     cursor: pointer;
     font-weight: 800;
-    text-transform: uppercase; `
+    text-transform: uppercase;
+    background-color: #F47D20;
+    border: none;
+    border-radius: 7px;
+    
+    &:hover {
+        background-color: #e77620;
+    } `
 
 export const EmptyDiv = styled.div``

@@ -7,6 +7,7 @@ import { MostFeatured } from './components/MostFeaturedSection';
 import { GlobalStyles } from './styles/GeneralStyles';
 import { Footer } from './components/Footer';
 import ContactPage from './ContactPage';
+import AboutPage from './AboutPage'
 
 function App() {
 return (
@@ -16,6 +17,7 @@ return (
         <NavBar />
         <Routes>
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/about" element={<AboutPage />} />
             <Route path="/" element={
                 <>
                     <HeroSection />

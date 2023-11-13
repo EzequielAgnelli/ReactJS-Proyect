@@ -1,8 +1,6 @@
 import React from 'react';
 import logo from '../assets/Navbar-Image/Lego-Logo.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import { Navbar, NavbarList, NavbarLinks, NavbarDiv, NavbarTitle, NavbarUl, Header, StyledLink } from '../styles/NavBarStyles';
+import { Navbar, NavbarList, NavbarLinks, NavbarDiv, NavbarTitle, NavbarUl, Header, StyledLink, SecondStyledLink } from '../styles/NavBarStyles';
 
 export default function NavBar() {
 return (
@@ -26,7 +24,10 @@ return (
         <StyledLink to="/contact">Contact</StyledLink>
         </NavbarList>
 
-        <FontAwesomeIcon icon={faShoppingCart} size="lg" />
+        <NavbarList>
+        <StyledLink to="/about">About Us</StyledLink>
+        </NavbarList>
+
         </NavbarUl>
     </Navbar>
     </Header>
