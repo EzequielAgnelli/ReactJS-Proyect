@@ -7,17 +7,20 @@ import { MostFeatured } from './components/MostFeaturedSection';
 import { GlobalStyles } from './styles/GeneralStyles';
 import { Footer } from './components/Footer';
 import ContactPage from './ContactPage';
-import AboutPage from './AboutPage'
+import AboutPage from './AboutPage';
+import AllProductsPage from './AllProductsPage'
+// import MainPage from './main'
 
 function App() {
 return (
 <Router>
-
         <GlobalStyles />
         <NavBar />
         <Routes>
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/about" element={<AboutPage />} />
+            {/* <Route path="/Lego Shop" element={<MainPage />} />  */}
+            <Route path="/products" element={<AllProductsPage/>} />
             <Route path="/" element={
                 <>
                     <HeroSection />
@@ -27,7 +30,6 @@ return (
                 </>
             } />
         </Routes>
-
 </Router>
 );
 }

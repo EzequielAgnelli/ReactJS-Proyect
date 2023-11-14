@@ -8,7 +8,7 @@ return (
     <Navbar>
         <NavbarDiv>
         <img src={logo} alt="Lego Logo" />
-        <NavbarTitle>Lego Shop</NavbarTitle>
+        <SecondStyledLink to="">Lego Shop</SecondStyledLink>
         </NavbarDiv>
 
         <NavbarUl>
@@ -17,7 +17,7 @@ return (
         </NavbarList>
 
         <NavbarList>
-            <NavbarLinks href="#mostfeatured"> Discover </NavbarLinks>
+            <StyledLink to="/products"> Products </StyledLink>
         </NavbarList>
 
         <NavbarList>

@@ -29,7 +29,7 @@ export default function AboutPage() {
             </CardContainer>  
 
             <TitleContainer>
-                <ExtraTitle>More Curiosities about LEGO</ExtraTitle>
+                <ExtraTitle>More Curiosities about LEGO®️</ExtraTitle>
             </TitleContainer>
 
             <SecondCardContainer>

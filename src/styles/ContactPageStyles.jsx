@@ -4,7 +4,11 @@ export const Form = styled.form`
     padding: 30px;
     display: flex;
     justify-content: center;
-    align-items: center; `
+    align-items: center; 
+    
+    @media (max-width: 768px) {
+        padding: 30px;
+    }`
 
 export const DivContainer = styled.div`
     display: flex;
@@ -12,7 +16,13 @@ export const DivContainer = styled.div`
     width: 100%;
     background-color: #bdb2b4;
     max-width: 1200px;
-    border-radius: 8px; `
+    border-radius: 8px; 
+    
+    @media (max-width: 768px) {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    } `
 
 export const DivInformation = styled.div`
     display: flex;
@@ -28,7 +38,15 @@ export const SecondDiv = styled.div`
     flex-direction: column;
     background-color: #bdb2b4;
     height: 650px;
-    border-radius: 8px; `
+    border-radius: 8px;
+
+        @media (max-width: 992px) {
+        height: 850px;
+    }
+
+    @media (max-width: 768px) {
+        height: 370px;
+    } `
 
 export const DivTitle = styled.h1`
     color: black;
@@ -50,23 +68,57 @@ export const DivNamesForm = styled.div`
     justify-content: center; 
     flex-direction: column;
     gap: 10px;
-    padding: 10px; `
+    padding: 10px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 0px;
+    } `
 
 export const InputNames = styled.input`
     width: 50%;
-    padding: 10px; `
+    padding: 10px; 
+    font-family: 'Assistant';
+    
+    @media (max-width: 768px) {
+        width: 100%;
+    } 
+    
+    @media (max-width: 992px) {
+        width: 100%;
+        font-size: 18px;
+    } `
 
 export const InputEmail = styled.input.attrs({
     type: 'email',
 })`
     width: 50%;
-    padding: 10px; `
+    padding: 10px; 
+    font-family: 'Assistant';
+    
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+    
+    @media (max-width: 992px) {
+        width: 100%;
+        font-size: 18px;
+    } `
 
 export const InputText = styled.textarea`
     width: 50%;
     height: 70px;
     padding: 10px;
-    resize: none; `
+    resize: none; 
+    
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+
+    @media (max-width: 992px) {
+        width: 100%;
+        font-size: 18px;
+    } `
 
 export const SubmitButton = styled.button`
     padding: 10px;
@@ -81,6 +133,14 @@ export const SubmitButton = styled.button`
     
     &:hover {
         background-color: #e77620;
+    } 
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+    
+    @media (max-width: 992px) {
+        width: 90%;
     } `
 
 export const EmptyDiv = styled.div``

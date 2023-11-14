@@ -4,7 +4,7 @@ import {AboutContainer, Title, CardContainer, Card, CardTitle, ImageContainer} f
 const SeventhCard = () => { 
 return (
     <Card>
-        <CardTitle></CardTitle>
+        <CardTitle>LEGO won many awards over the years, and this year we won multiple awards as well! Including Toy of the Year. Thank you for trusting us!</CardTitle>
     </Card>
     )
 }

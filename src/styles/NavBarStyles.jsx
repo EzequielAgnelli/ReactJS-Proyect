@@ -75,4 +75,9 @@ export const StyledLink = styled(Link)`
 export const SecondStyledLink = styled(Link)`
     padding: 10px;
     font-size: 25px;
-    font-weight: 800;`
+    font-weight: 800;
+    color: black;
+    
+    &:hover {
+        color: #333;
+    }`
