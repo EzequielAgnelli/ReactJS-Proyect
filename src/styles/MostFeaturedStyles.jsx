@@ -10,20 +10,23 @@ export const FeaturedDiv = styled.div`
 
 export const FeaturedContainer = styled.div`
     display: flex;
+    gap: 20px;
     justify-content: center;
     align-items: center;
+    background-color: #f9f9f9; 
+    max-width: 1200px;
     flex-wrap: wrap;
-    gap: 10px;
-    max-width: 1200px; `
+    padding: 20px;`
 
 export const ProductsDiv = styled.div`
     display: flex;
-    justify-content: center;
-    align-items: right;
     flex-direction: column;
-    flex-wrap: wrap;
-    outline: 1px solid gray;
-    gap: 10px; `
+    align-items: right;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); `
 
 export const ProductsExclusiveDiv = styled.div`
     margin-top: 7px;
@@ -35,16 +38,10 @@ export const ProductsExclusiveDiv = styled.div`
 
 export const ProductsInfoDiv = styled.div`
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px; `
-
-export const ExclusiveTag = styled.span`
-    padding: 5px;
-    background-color: #F2F2F2;
-    border-left: 2px solid orange;`
+    align-items: center;
+    gap: 10px; 
+    flex-wrap: wrap;`
 
 export const TitleSection = styled.h2`
     text-align: center;
@@ -103,3 +100,8 @@ export const ProductBtn = styled.button`
         background-color: #201D48;;
         color: #fff;
     }`
+
+export const ExclusiveTag = styled.span`
+    padding: 5px;
+    background-color: #F2F2F2;
+    border-left: 2px solid orange;`
