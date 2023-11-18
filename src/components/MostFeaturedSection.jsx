@@ -23,15 +23,15 @@ export function MostFeatured() {
                         </ExclusiveTag>
                     </ProductsExclusiveDiv>
 
-                    <ProductImg  
-                        src={AhsokaImg}
-                        alt="LEGO of Ahsoka (Star Wars)">
-                    </ProductImg>
-
                     <ProductsInfoDiv>
                         <ProductName>
                             Ahsoka Tano
                         </ProductName>
+
+                    <ProductImg  
+                        src={AhsokaImg}
+                        alt="LEGO of Ahsoka (Star Wars)">
+                    </ProductImg>
 
                         <ProductPieces>
                             164 Pieces

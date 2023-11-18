@@ -10,15 +10,16 @@ const SecondProduct = () => {
                             Hard to Find
                         </ExclusiveTag>
                     </ProductsExclusiveDiv>
-            <ProductImg  
-                src={SecondProductImg}
-                alt="Daily Bugle (Spider-Man)">
-            </ProductImg>
 
             <ProductsInfoDiv>
                 <ProductName>
                     Daily Bugle
                 </ProductName>
+
+            <ProductImg  
+                src={SecondProductImg}
+                alt="Daily Bugle (Spider-Man)">
+            </ProductImg>
 
                 <ProductPieces>
                     3772 Pieces

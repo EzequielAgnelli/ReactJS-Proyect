@@ -4,6 +4,13 @@ import SecondCard from './components/AllProducts-HeroComponents/SecondCard'
 import ThirdCard from './components/AllProducts-HeroComponents/ThirdCard'
 import {Footer} from './components/Footer'
 import SecondProduct from './components/AllProducts-Products/SecondProduct'
+import ThirdProduct from './components/AllProducts-Products/ThirdProduct'
+import FourthProduct from './components/AllProducts-Products/FourthProduct'
+import FifthProduct from './components/AllProducts-Products/FifthProduct'
+import SixthProduct from './components/AllProducts-Products/SixthProduct'
+import SeventhProduct from './components/AllProducts-Products/SeventhProduct'
+import EigthProduct from './components/AllProducts-Products/EigthProduct'
+import NinthProduct from './components/AllProducts-Products/NinthProduct'
 import Ahsoka from './assets/MostFeaturedProducts-Imgs/Ahsoka.jpg'
 
 export default function ContactPage() {
@@ -73,6 +80,13 @@ export default function ContactPage() {
 
             </ProductDiv>
             <SecondProduct />
+            <ThirdProduct />
+            <FourthProduct />
+            <FifthProduct />
+            <SixthProduct />
+            <SeventhProduct />
+            <EigthProduct />
+            <NinthProduct />
         </ProductsContainer>
 
             <Footer />

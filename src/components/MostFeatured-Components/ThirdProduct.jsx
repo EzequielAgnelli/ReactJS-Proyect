@@ -10,15 +10,16 @@ const SecondProduct = () => {
                             New
                         </ExclusiveTag>
                     </ProductsExclusiveDiv>
-            <ProductImg  
-                src={SecondProductImg}
-                alt="Harry Potter and Hermione Granger (Harry Potter)">
-            </ProductImg>
 
             <ProductsInfoDiv>
                 <ProductName>
                     Imperial Tie
                 </ProductName>
+
+            <ProductImg  
+                src={SecondProductImg}
+                alt="Harry Potter and Hermione Granger (Harry Potter)">
+            </ProductImg>
 
                 <ProductPieces>
                     432 Pieces

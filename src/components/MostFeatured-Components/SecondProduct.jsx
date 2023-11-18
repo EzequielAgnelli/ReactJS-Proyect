@@ -10,15 +10,16 @@ const SecondProduct = () => {
                             Hard to Find
                         </ExclusiveTag>
                     </ProductsExclusiveDiv>
-            <ProductImg  
-                src={SecondProductImg}
-                alt="LEGO AT-AT (Star Wars)">
-            </ProductImg>
 
             <ProductsInfoDiv>
                 <ProductName>
                     AT-AT
                 </ProductName>
+
+            <ProductImg  
+                src={SecondProductImg}
+                alt="LEGO AT-AT (Star Wars)">
+            </ProductImg>
 
                 <ProductPieces>
                     6785 Pieces

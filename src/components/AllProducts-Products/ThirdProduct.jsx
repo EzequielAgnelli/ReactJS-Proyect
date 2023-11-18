@@ -1,21 +1,21 @@
 import React from 'react'
-import SecondProductImg from '../../assets/MostFeaturedProducts-Imgs/AT-AT.jpg';
+import ThirdImage from '../../assets/MostFeaturedProducts-Imgs/UpHouse.png';
 import {ProductDiv, ProductImg,  ProductName, ProductPieces, ProductBtn} from '../../styles/AllProductsPageStyles'
 
 const ThirdProduct = () => {
     return (
         <ProductDiv>  
                 <ProductName>
-                    Ahsoka Tano
+                    Up House
                 </ProductName>
 
                 <ProductImg  
-                src={SecondProductImg}
-                alt="">
+                src={ThirdImage}
+                alt="Up House">
                 </ProductImg>
 
                 <ProductPieces>
-                    164 Pieces
+                    598 Pieces
                 </ProductPieces>
 
                 <ProductBtn>

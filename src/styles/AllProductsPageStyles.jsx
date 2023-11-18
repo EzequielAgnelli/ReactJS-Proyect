@@ -8,8 +8,9 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     flex-direction: column;
-    
+
     @media (max-width: 768px) {
         width: 100%;
         padding: 0px;
@@ -58,9 +59,7 @@ export const HeroExtraDiv = styled.div`
         height: 390px;
         background-color: rgba(31, 32, 36, 0.801);
     };
-    
 
-    
     @media (max-width: 1024px) {
 
     }; 
@@ -156,10 +155,12 @@ export const ProductsTitle = styled.h1`
 
 export const ProductsContainer = styled.div`
     display: flex;
-    gap: 20px;
-    justify-items: center;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 20px;
-    background-color: #f9f9f9; 
+    background-color: #f9f9f9;
     
     @media (max-width: 768px) {
         flex-direction: column;
@@ -196,7 +197,7 @@ to {
 } `
 
 export const ProductImg = styled.img`
-    width: 340px;
+    width: 370px;
     height: 460px;
     padding: 20px;
     transition: padding 0.3s ease-in;

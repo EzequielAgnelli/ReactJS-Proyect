@@ -10,15 +10,16 @@ const SecondProduct = () => {
                             New
                         </ExclusiveTag>
                     </ProductsExclusiveDiv>
-            <ProductImg  
-                src={SecondProductImg}
-                alt="Piranha Plant (Super Mario Bros)">
-            </ProductImg>
 
             <ProductsInfoDiv>
                 <ProductName>
                     Piranha Plant
                 </ProductName>
+
+            <ProductImg  
+                src={SecondProductImg}
+                alt="Piranha Plant (Super Mario Bros)">
+            </ProductImg>
 
                 <ProductPieces>
                     540 Pieces
