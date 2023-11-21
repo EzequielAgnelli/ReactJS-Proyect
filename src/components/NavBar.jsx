@@ -1,9 +1,14 @@
 import React from 'react';
 import logo from '../assets/Navbar-Image/Lego-Logo.png';
-import { Navbar, NavbarList, NavbarLinks, NavbarDiv, NavbarUl, Header, StyledLink, SecondStyledLink } from '../styles/NavBarStyles';
+import { Navbar, NavbarList, NavbarLinks, NavbarDiv, NavbarUl, Header, StyledLink, SecondStyledLink, NavbarContainerLinks } from '../styles/NavBarStyles';
 import { HiOutlineMenu } from "react-icons/hi";
+import { useAppContext } from '../Context/Context';
+
+
 
 export default function NavBar() {
+    const {isMenuOpen, toggleMenu} = useAppContext();
+
 return (
     <Header>
     <Navbar>
@@ -14,7 +19,10 @@ return (
         </NavbarDiv>
 
         <NavbarUl>   
-            <HiOutlineMenu size="40" cursor="pointer"/>
+            <HiOutlineMenu size="40" cursor="pointer" onClick={toggleMenu}
+            
+            />
+
         <NavbarList>
             <NavbarLinks href="#videogame"> Purchase Now </NavbarLinks>
         </NavbarList>

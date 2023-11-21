@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import { HeroSection } from './components/HeroSection';
@@ -9,10 +9,12 @@ import { Footer } from './components/Footer';
 import ContactPage from './ContactPage';
 import AboutPage from './AboutPage';
 import AllProductsPage from './AllProductsPage'
+import { ContextProvider } from './Context/Context';
 // import MainPage from './main'
 
 function App() {
 return (
+    <ContextProvider>
 <Router>
         <GlobalStyles />
         <NavBar />
@@ -31,6 +33,7 @@ return (
             } />
         </Routes>
 </Router>
+    </ContextProvider>
 );
 }
 

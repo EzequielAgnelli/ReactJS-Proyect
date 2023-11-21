@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { HiOutlineMenu } from "react-icons/hi";
 
 export const Header = styled.header`
     background-color: #FFD700; 
@@ -81,3 +82,6 @@ export const SecondStyledLink = styled(Link)`
     &:hover {
         color: #333;
     }`
+
+export const NavbarContainerLinks = styled.div`
+    display: flex;`
