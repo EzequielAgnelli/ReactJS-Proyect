@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import image from '../assets/Hero-Section-Imgs/06-Hero-Standard-StarWars-LEGO.jpeg'
-import secondimage from '../assets/Hero-Section-Imgs/968429.jpg'
+import secondimage from '../assets/Hero-Section-Imgs/07-Hero-Standard-StarWars-LEGO.jpg'
 
 export const HeroContainer = styled.div`
     width: 100%;
