@@ -16,7 +16,12 @@ export const FeaturedContainer = styled.div`
     background-color: #f9f9f9; 
     max-width: 1200px;
     flex-wrap: wrap;
-    padding: 20px;`
+    padding: 20px;
+    
+    @media (max-width: 768px) {
+        padding: 20px;
+        gap: 20px;
+    };`
 
 export const ProductsDiv = styled.div`
     display: flex;
@@ -26,7 +31,11 @@ export const ProductsDiv = styled.div`
     background-color: white;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); `
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); 
+    
+    @media (max-width: 360px) {
+        padding: 5px;
+    }; `
 
 export const ProductsExclusiveDiv = styled.div`
     margin-top: 7px;
@@ -41,7 +50,11 @@ export const ProductsInfoDiv = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 10px; 
-    flex-wrap: wrap;`
+    flex-wrap: wrap;
+    
+    @media (max-width: 360px) {
+        padding: 10px;
+    }; `
 
 export const TitleSection = styled.h2`
     text-align: center;
@@ -70,10 +83,15 @@ export const ProductImg = styled.img`
         padding: 4px;
         transition: all;
     }
-    
+
+
     @media (max-width: 360px) {
-        width: 250px;
-    }; `
+        width: 350px;
+    }; 
+
+    @media (max-width: 768px) {
+        width: 350px;
+    };`
 
 export const ProductName = styled.h3`
     font-size: 22px; `

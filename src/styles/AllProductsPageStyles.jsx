@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import image from '../assets/Hero-Section-Imgs/06-Hero-Standard-StarWars-LEGO.jpeg'
-
+import secondimage from '../assets/Hero-Section-Imgs/968429.jpg'
 
 export const HeroContainer = styled.div`
     width: 100%;
@@ -27,13 +27,28 @@ export const HeroDiv = styled.div`
     background-repeat: no-repeat;
     width: 1600px;
     height: 500px; 
-    
-    @media (max-width: 768px) {
-    width: 100%;
-    }; 
-    
+
+    @media (max-width: 360px) {
+        width: 300px;
+    };
+
     @media (max-width: 992px) {
-    width: 100%;
+        width: 805px;
+    }; 
+
+    @media (max-width: 768px) {
+        background-image: url(${secondimage});
+        width: 300px;
+        height: 500px;
+    }; 
+
+    @media (max-width: 1024px) {
+        width: 100%;
+        padding: 0px;
+    }; 
+
+    @media (max-width: 1280px) {
+        width: 100%;
     }; `
 
 export const HeroExtraContainer = styled.div`
@@ -151,7 +166,11 @@ export const HeroExtraBtn = styled.button`
 
 export const ProductsTitle = styled.h1`
     text-align: center;
-    text-transform: uppercase; `
+    text-transform: uppercase; 
+    
+    @media (max-width: 1280px) {
+        width: 100%;
+    }; `
 
 export const ProductsContainer = styled.div`
     display: flex;
@@ -174,7 +193,11 @@ export const ProductDiv = styled.div`
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.233); `
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.233); 
+    
+    @media (max-width: 768px) {
+        width: 350px;
+}; `
 
 export const ProductsInfoDiv = styled.div`
     display: flex;

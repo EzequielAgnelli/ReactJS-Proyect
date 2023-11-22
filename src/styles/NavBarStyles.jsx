@@ -31,7 +31,14 @@ export const NavbarUl = styled.ul`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 15px 0px 0px; `
+    margin: 0px 15px 0px 0px; 
+    
+    @media (max-width: 768px) {
+        flex-direction: column;
+        display: ${props => (props.isMenuOpen ? 'flex' : 'none')};
+        text-align: center;
+        align-items: center;
+    } `
 
 export const NavbarList = styled.li`
     display: flex;
@@ -71,7 +78,7 @@ export const StyledLink = styled(Link)`
 
     @media (max-width: 992px) {
         font-size: 18px;
-    };`
+    }; `
 
 export const SecondStyledLink = styled(Link)`
     padding: 10px;
@@ -81,7 +88,25 @@ export const SecondStyledLink = styled(Link)`
     
     &:hover {
         color: #333;
-    }`
+    } `
 
-export const NavbarContainerLinks = styled.div`
-    display: flex;`
+export const MenuIcon = styled(HiOutlineMenu)`
+    display: none;
+
+    @media (max-width: 768px) {
+        display: block;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media (min-width: 810px) and (max-width: 1080px) {
+        display: none;
+        align-items: center;
+        justify-content: center;
+} `
+
+export const ExtraDiv = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 10px;`
